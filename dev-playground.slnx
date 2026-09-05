@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/DesignPatter.Api/Playground.Api.csproj" />
+    <Project Path="src/Playground.ServiceDefaults/Playground.ServiceDefaults.csproj" />
+    <Project Path="src/playground/Playground.AppHost.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Playground.UnitTests/Playground.UnitTests.csproj" />
+  </Folder>
+</Solution>
