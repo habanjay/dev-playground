@@ -42,7 +42,10 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithSummary("Get Weather Forecast endpoint")
-.WithDescription("Get Weather Forecast endpoint");
+.WithDescription("Get Weather Forecast endpoint")
+.Produces<WeatherForecast[]>(StatusCodes.Status200OK)
+.Produces(StatusCodes.Status404NotFound)
+.ProducesProblem(StatusCodes.Status400BadRequest);
 
 app.Run();
 
