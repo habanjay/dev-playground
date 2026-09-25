@@ -8,6 +8,7 @@
     <Project Path="src/playground/Playground.AppHost.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/Playground.BenchmarkSuite/Playground.BenchmarkSuite.csproj" Id="17135601-dd16-4c49-9f79-870426b841fa" />
     <Project Path="tests/Playground.UnitTests/Playground.UnitTests.csproj" />
   </Folder>
 </Solution>
